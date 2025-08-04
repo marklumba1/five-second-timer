@@ -14,6 +14,17 @@ const App: React.FC = () => {
         <strong>useCallback</strong>, <strong>useContext</strong>, and a custom
         hook <strong>useCountdown</strong> for clean, reusable logic.
       </p>
+      <p className="text-sm text-teal-400">
+        View the code on{" "}
+        <a
+          href="https://github.com/marklumba1/five-second-timer"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-teal-200 transition"
+        >
+          GitHub
+        </a>
+      </p>
       <p className="text-6xl font-mono font-bold tracking-widest">
         {seconds}s <span className="block text-3xl">{time}ms</span>
       </p>
